@@ -1,0 +1,68 @@
+  #game-container {
+    display: flex;
+  }
+    body {
+        background-color: black;
+        font-family: 'Press Start 2P', cursive;
+      }
+      
+      canvas {
+        border: 2px solid white;
+        display: block;
+        margin: auto;
+      }
+      
+      button {
+        background-color: #FFCB05;
+        color: black;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 1rem;
+        margin: 0.5rem;
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        box-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+        transition: all 0.2s ease-in-out;
+        width: 7rem;
+      }
+      
+      button:hover {
+        background-color: #FFFDE7;
+        color: #333;
+        transform: translateY(-2px);
+        box-shadow: 3px 3px 0px rgba(0,0,0,0.5);
+      }
+      
+      #start-button {
+        background-color: #28C76F;
+        color: white;
+        box-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+      }
+      
+      #start-button:hover {
+        background-color: #1E9C60;
+      }
+      
+      #up-button, #down-button, #left-button, #right-button {
+        background-color: #EA5455;
+        color: white;
+      }
+      
+      #up-button:hover, #down-button:hover, #left-button:hover, #right-button:hover {
+        background-color: #D83A56;
+      }
+      
+      #button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1rem;
+      }
+      
+      #button-container button {
+        margin: 0.5rem 0;
+      }
+      
+      
