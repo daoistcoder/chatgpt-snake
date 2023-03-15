@@ -34,7 +34,10 @@ let foodY;
 let score = 0;
 
 // Define the snake body
-let snakeBody = [{x: snakeX, y: snakeY}];
+let snakeBody = [
+  { x: snakeX, y: snakeY },
+  { x: snakeX - snakeSize, y: snakeY }
+];
 
 // Draw the snake
 function drawSnake() {
